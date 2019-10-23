@@ -25,5 +25,10 @@ def printer(method)
   puts "Hello, my name is #{names}."
   end
   
+   counter = 0
+ method.collect{|item, index|
+  counter += 1
+ "Hello, #{item}! You'll be assigned to room #{counter}!"
+  }
   
 end
