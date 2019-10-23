@@ -20,15 +20,7 @@ def assign_rooms(speakers)
  
 end
 
-def printer(method)
-  method.collect do |names|
-  puts "Hello, my name is #{names}."
-  end
-  
-   counter = 0
- method.collect{|item, index|
-  counter += 1
- "Hello, #{item}! You'll be assigned to room #{counter}!"
-  }
+def printer(array)
+  array.collect{|item|}
   
 end
