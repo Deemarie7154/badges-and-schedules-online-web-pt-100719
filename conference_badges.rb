@@ -21,5 +21,5 @@ def assign_rooms(speakers)
 end
 
 def printer(method)
- puts method
+ 
 end
