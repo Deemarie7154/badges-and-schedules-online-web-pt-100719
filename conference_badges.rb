@@ -21,5 +21,9 @@ def assign_rooms(speakers)
 end
 
 def printer(method)
- 
+  method.collect do |names|
+  puts "Hello, my name is #{names}."
+  end
+  
+  
 end
